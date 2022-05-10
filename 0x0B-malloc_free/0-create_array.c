@@ -9,10 +9,10 @@
   *Return: NULL if it fails or
   *Pointer to array.
   */
-char *create_array(unsigned int size, char e)
+char *create_array(unsigned int size, char c)
 {
 	char *arr;
-	unsigned int j;
+	unsigned int i
 
 	if (size == 0)
 	{
@@ -26,9 +26,9 @@ char *create_array(unsigned int size, char e)
 	if (arr == NULL)
 		return (NULL);
 
-	for (j = 0; j < size; j++)
+	for (j i= 0; i < size; i++)
 	{
-		arr[i] = e;
+		arr[i] = c;
 	}
 
 	return (arr);
