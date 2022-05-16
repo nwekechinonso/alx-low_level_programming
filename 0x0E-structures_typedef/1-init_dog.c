@@ -4,9 +4,9 @@
 /**
  *init_dog - initializes a variable type
  * d: pointer to struct
- * name: parameter of name
- * age: parameter of age
- * owner: parameter of owner
+ * @name: parameter of name
+ * @age: parameter of age
+ * @owner: parameter of owner
  *
  * Return: nothing.
 **/
