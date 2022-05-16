@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * print_dog - Prints name, age and owner if not null.
- * d: is pointer to the struct dog.
+ * @d: is pointer to the struct dog.
  *
  * Return: nothing.
 **/
